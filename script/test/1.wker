@@ -7,7 +7,7 @@ function add(ws)
 }
 function sub(a,b)
 {
-	return a-b;//nihao������
+	return a-b;//nihao??????
 }
 function getay()
 {
@@ -23,7 +23,7 @@ function main(args)
 	print(by[0].by[1]);
 	//print(GetArrayNum(by));
 	test = 1/*ceshi*/;
-	by[test] = "//nihao������/*aa*/";///���
+	by[test] = "//nihao??????/*aa*/";///???
 	print(add(by[0]));
 	print(by[0].by[1]);
 	test = 6/2;//nihao
@@ -34,15 +34,15 @@ function main(args)
 	
 	if(abc>10)
 	{
-		print("a����10");
+		print("a????10");
 		if(add(666)>30)
 		{
-			print("#define r=   56465   add(666)����30");
+			print("#define r=   56465   add(666)????30");
 		}else{
-			print(test."add(666)С��30");
+			print(test."add(666)��??30");
 		}
 	}else{
-		print("aС��10");
+		print("a��??10");
 	}
 	while(abc>=10){
 		abc=abc-1;
