@@ -1,0 +1,55 @@
+#define q=   aaaaaaafeafeawf
+#define r=   56465
+function add(ws)
+{
+	abc = 66;
+	return (abc+ws)*3;
+}
+function sub(a,b)
+{
+	return a-b;//nihao发发发
+}
+function getay()
+{
+	array ay;
+	ay = ArrayAddEle(ay,"12");
+	ay = ArrayAddEle(ay,"3");
+	return ay;
+}
+function main(args)
+{
+	var test,abc,Wker;
+	by = getay();
+	print(by[0].by[1]);
+	//print(GetArrayNum(by));
+	test = 1/*ceshi*/;
+	by[test] = "//nihao发发发/*aa*/";///你好
+	print(add(by[0]));
+	print(by[0].by[1]);
+	test = 6/2;//nihao
+	print(test);
+	abc="21";
+	Wker = 7;
+	test = (test*(abc   +Wker))-3+add(666)."aaa";
+	
+	if(abc>10)
+	{
+		print("a大于10");
+		if(add(666)>30)
+		{
+			print("#define r=   56465   add(666)大于30");
+		}else{
+			print(test."add(666)小于30");
+		}
+	}else{
+		print("a小于10");
+	}
+	while(abc>=10){
+		abc=abc-1;
+		if(abc>15)
+		{
+			continue;
+		}
+		print(abc);
+	}
+}
