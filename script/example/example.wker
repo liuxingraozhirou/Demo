@@ -1,0 +1,15 @@
+#define Wker = "Wker love"
+function test()
+{
+	print(Wker);
+}
+function main(args)
+{
+	print("Wker is good!");
+	array a;
+	ArrayAddEle(a,"b");
+	print(a[0]);
+	var c;
+	c = ToInt(130*4);
+	print(c.Wker);
+}
